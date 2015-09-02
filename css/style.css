@@ -101,23 +101,41 @@ h2{
     display:block;
     margin: 0 auto;
     margin-top: 10px;
-    width:100px;
-    
- 
+    width:100px;    
 }
+
 .cubism_picture p{
 	font-size: .5em;
 	font-style: italic;
 	display: block;
 	text-align: center;
+}
 
-.expressionism_picture{
+.expressionism_picture {
+	display: block;
+	background-color: white;
+	margin: 0 auto;
+	width:360px;
 
 }
 
-
-
+.greyhound {
+	background: url(../img/greyhound.png) no-repeat;
+    background-size: cover;
+    padding:100px;
+    display:block;
+    margin: 0 auto;
+    margin-top: 30px;
+    width:100px;
 }
+.expressionism_picture p{
+	font-size: .5em;
+	font-style: italic;
+	display: block;
+	text-align: center;
+}
+
+
 .related_articles{
 	display: block;
 	background-color: #8781bd;
