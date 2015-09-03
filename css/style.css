@@ -111,6 +111,7 @@ h2{
 	display: block;
 	text-align: center;
 	margin: 0 auto;
+	width:100%;
 }
 /******************************/
 
@@ -134,7 +135,7 @@ h2{
 	display: block;
 	text-align: center;
 	margin: 0 auto;
-	width:80%;
+	width:100%%;
 }
 /******************************/
 
@@ -181,7 +182,7 @@ h2{
 	text-align: right;
 	padding-bottom: 40px;
 }
-/*******************************/
+/**********Footer*********************/
 footer{
 	display: block;
 	background-color: #4c486d;
@@ -212,6 +213,9 @@ footer{
 	font-weight: bold;
 }
 .doll{
+	display:none;
+}
+.doll2{
 	display:none;
 }
 .abstract{
@@ -276,6 +280,7 @@ footer{
 		margin: 0 auto;
 	}
 /****************************/
+	
 	.related_articles{
 
 	}
@@ -284,6 +289,8 @@ footer{
 		margin:0 auto;
 		width:15%;
 		float:left;
+	}
+
 	}
 	.abstract{
 		display:block;
@@ -323,10 +330,10 @@ footer{
 		margin: 0 auto;
 		text-align: left;
 	}
-/******************************/
-
 	
 }
+
+/******************************/
 @media screen and (min-width: 800px){
 	
 	.title{
@@ -349,6 +356,7 @@ footer{
 	.header_navigation q{
 		display: inline-block;
 	}
+/**************************************/	
 
 	.lady{
 		display:none;
@@ -371,6 +379,57 @@ footer{
 	.expressionism{
 		display:inline-block;
 		width:40%;
+	}
+	.doll2{
+		display:block;
+		margin:0 auto;
+		width:15%;
+		float:left;
+	}
+	.creepyman{
+		display:none;
+	}
+	.abstract{
+		display:none;
+	}
+
+/***********Page 3 Related Articles**********************/
+	
+
+	.related_articles{
+	display: inline-block;
+	background-color: white;
+	width: 100%;
+	}
+
+	.related_articles h2{
+		display:block;
+	}
+	.related_articles p{
+		display:block;
+	}	
+	.related_articles h3{
+		display:block;
+	}
+	.related_articles ul{
+		display:inline-block;
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+
+	.related_articles li{
+		display: inline-block;
+		margin-bottom: 5px;	
+		text-align: center;
+		width: 30%;
+	}
+
+	.related_articles a{
+		display: block;
+		color:white;
+		background-color: black;
+		padding: 20px;
 	}
 
 }
